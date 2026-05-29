@@ -1,0 +1,169 @@
+Build a production-ready AI-powered Finance Personal Assistant web application called "FinPilot".
+
+Purpose:
+The application is designed for finance professionals, CFOs, finance heads, accountants, and business owners. It should function as an intelligent finance copilot capable of analyzing financial data, generating reports, answering finance-related questions, and automating repetitive finance tasks.
+
+Tech Stack:
+
+* Frontend: React + TypeScript + Tailwind CSS
+* Backend: FastAPI (Python)
+* Database: PostgreSQL
+* Authentication: JWT + Role-Based Access Control
+* File Storage: Local storage with future cloud compatibility
+* Charts: Chart.js
+* AI Integration: OpenAI API
+* Excel Processing: Pandas + OpenPyXL
+* PDF Processing: PyPDF
+* Deployment Ready
+
+Core Features:
+
+1. Secure Authentication
+
+* Login and registration
+* User roles (Admin, Finance Manager, Employee)
+* Password reset
+* Session management
+
+2. AI Finance Chat Assistant
+
+* ChatGPT-like interface
+* Context-aware conversations
+* Finance-specific responses
+* Support file uploads in chat
+* Save chat history
+
+3. Financial Dashboard
+
+* Income vs Expense charts
+* Cash flow tracking
+* Profit and Loss overview
+* Key financial KPIs
+* Interactive charts
+
+4. Expense Management
+
+* Add/Edit/Delete expenses
+* Expense categories
+* Monthly summaries
+* Expense trends
+* Search and filter functionality
+
+5. Excel Analyzer
+
+* Upload Excel files
+* Automatically analyze data
+* Detect anomalies
+* Identify top expenses
+* Generate summaries
+* Export analysis reports
+
+6. PDF Financial Report Analyzer
+
+* Upload PDFs
+* Extract tables and financial data
+* Summarize reports
+* Highlight important figures
+* AI-generated insights
+
+7. Invoice Management
+
+* Create invoices
+* Track payment status
+* Mark paid/unpaid
+* Generate PDF invoices
+* Search invoices
+
+8. Financial Report Generator
+
+* Monthly reports
+* Quarterly reports
+* Annual reports
+* AI-generated executive summaries
+* Export PDF
+
+9. Budget Planning Module
+
+* Create budgets
+* Track budget utilization
+* Budget alerts
+* Variance analysis
+
+10. Forecasting Module
+
+* Revenue forecasting
+* Expense forecasting
+* Cash flow prediction
+* Visual trend charts
+
+11. AI CFO Mode
+    Generate:
+
+* Executive summaries
+* Business insights
+* Financial recommendations
+* Risk analysis
+* Cost-saving opportunities
+
+12. Voice Assistant
+
+* Speech-to-text input
+* Text-to-speech output
+* Voice commands
+
+13. Notifications
+
+* Due invoices
+* Budget alerts
+* Financial reminders
+* Report generation notifications
+
+UI Requirements:
+
+* Modern professional design
+* Finance dashboard appearance
+* Responsive layout
+* Dark mode and light mode
+* Sidebar navigation
+* Beautiful charts and tables
+
+Database Design:
+Create proper models for:
+
+* Users
+* Expenses
+* Invoices
+* Budgets
+* Reports
+* Uploaded Files
+* Chat History
+
+API Requirements:
+
+* RESTful APIs
+* Clean architecture
+* Service layer
+* Proper validation
+* Error handling
+* Logging
+
+AI Features:
+
+* Financial Q&A
+* Data analysis
+* Report summarization
+* Forecast generation
+* Smart recommendations
+
+Project Requirements:
+
+* Fully structured folder architecture
+* Environment variable support
+* Production-ready code
+* Detailed comments
+* README documentation
+* Sample demo data
+* Docker support
+
+Generate complete frontend, backend, database schema, API routes, and deployment configuration.
+The final product should look and behave like a professional SaaS finance copilot similar to enterprise financial intelligence platforms.
